@@ -1,0 +1,45 @@
+Fortunes API | Section Summary
+
+
+Section Summary | Node and Express - Fortunes API
+
+Congratulations on completing the fortunes API with Node and Express! 
+In this section, we covered so many concepts. Let’s take a moment to review them:
+
+Express is a fast, unopinionated, minimalist web framework made for Node.js.
+
+Fast due to its minimal nature in implementation.
+
+Unopinionated since it doesn’t force you to code in a strict way, 
+and you have more freedom to follow your own software engineering conventions.
+
+JSON, or JavaScript Object Notation, represents JavaScript objects in a special JavaScript file. 
+Note that the the keys are surrounded by quotes.
+
+The express module exports a top level function by default. 
+We use that function to create the express application object.
+
+With express, HTTP Request Methods are defined by calling the
+ .get(), .post(), .put(), .delete(), etc.
+
+Express request method take a callback with a request (req) and 
+response (res) object that allow us to interact with incoming data from the request, 
+and send back data as a result.
+
+Postman is a convenient graphical tool that allows us to interactively build HTTP requests.
+
+If you’d like to continue developing this fortunes API and continue working on your Node 
+and Express skills, here’s some challenges to try:
+
+Post multiple fortunes in one request.
+
+Implement a clear all fortunes method that empties the entire 
+fortunes.json file and turns it into an empty array.
+
+Fix the edge case in the PUT method. What if the sent number for 
+the “lucky_number” is 0? Then the `if (lucky_number)` condition would fail, 
+and the lucky_number doesn’t update in the backend. To solve this, 
+add an extra check to essentially allow `if (lucky_number)` to pass 
+even if the passed number is 0.
+
+Once again, congratulations! Let’s keep coding!
