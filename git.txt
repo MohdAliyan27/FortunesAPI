@@ -1,0 +1,9 @@
+git init
+git clone "Repository URL"
+cd "Name of the copied folder"
+git status
+git add .
+git commit -m "Message on commit"
+git remote add origin "Repository URL"
+git push origin master.
+
